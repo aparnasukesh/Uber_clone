@@ -162,6 +162,18 @@ body{
     height:1000px;
     float: left;
 }
+.mainbody4{
+    width: 100%;
+    height:300px;
+    background-color: rgb(237, 224, 224);
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    float: left;
+}
 #image1{
     width: 100%;
     height: 650px;
@@ -311,12 +323,6 @@ body{
     color: black;
     background-color: #F6F6F6 ;
 }
-.img-auto{
-    width:150px;
-    height: 150px;
-    transform: translateY(80px);
-    margin-left: 320px;
-}
 .heading3{
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
@@ -325,9 +331,46 @@ body{
     margin-left: 300px;
     transform: translateY(40px);
 }
+.auto{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    float: left;
+}
+.moto{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    float: left;
+}
+.car1{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 300px;
+    float: left;
+}
+.car2{
+    width: 500px;
+    height: 300px;
+    background-color:white;
+    margin-top: 30px;
+    margin-left: 80px;
+    float: left;
+}.img-auto{
+    width:150px;
+    height: 150px;
+    transform: translateY(40px);
+    margin-left: 30pxx;
+}
 .hed-auto{
-    margin-left: 500px;
-    transform: translateY(-80px);
+    margin-left: 200px;
+    transform: translateY(10px);
     text-decoration: none;
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
@@ -339,38 +382,184 @@ body{
 .text-auto{
     text-decoration: none;
     color: black;
-    margin-left: 500px;
+    margin-left: 200px;
+    font-size: 17px;
+    margin-top: 100px;
     cursor: pointer;
 }
-.auto{
-    width: 500px;
-    height: 300px;
-    background-color: green;
+.img-moto{
+    width:150px;
+    height: 150px;
+    transform: translateY(40px);
+    margin-left: 30pxx;
+}
+.hed-moto{
+    margin-left: 200px;
+    transform: translateY(10px);
+    text-decoration: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 32px;
+    color: black;
+    cursor: pointer;
+}.text-moto{
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+    font-size: 17px;
     margin-top: 100px;
+    cursor: pointer;
+}.img-car1{
+    width:150px;
+    height: 150px;
+    transform: translateY(40px);
+    margin-left: 30pxx;
+}
+.hed-car1{
+    margin-left: 200px;
+    transform: translateY(10px);
+    text-decoration: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 32px;
+    color: black;
+    cursor: pointer;
+}
+.text-car1{
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+    font-size: 17px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.img-car2{
+    width:150px;
+    height: 150px;
+    transform: translateY(40px);
+    margin-left: 30pxx;
+}
+.hed-car2{
+    margin-left: 200px;
+    transform: translateY(10px);
+    text-decoration: none;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 32px;
+    color: black;
+    cursor: pointer;
+}
+.text-car2{
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+    font-size: 17px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.icon-1{
+    width: 400px;
+    height: 300px;
+    background-color:white;
     margin-left: 300px;
     float: left;
 }
-.moto{
-    width: 500px;
+.icon-2{
+    width: 400px;
     height: 300px;
-    background-color: green;
-    margin-top: 100px;
-    margin-left: 80px;
+    background-color: white;
+    margin-left: 50px;
     float: left;
 }
-.car1{
-    width: 500px;
+.icon-3{
+    width: 400px;
     height: 300px;
-    background-color: green;
-    margin-top: 50px;
+    background-color: white;
+    margin-left: 50px;
+    float: left;
+}
+.about-us{
+    width: 30px;
+    height: 30px;
+}
+.icon1-hed{
+    font-size: 20px;
+}
+.icon1-text{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.icon1-btn{
+    background-color:#F6F6F6 ;
+    color: black;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.icon1-btn:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+    border: #d5caca;
+    background-color:  #F6F6F6 ;
+    border-bottom: 1px solid black;
+}
+.footer-logo{
+    width:800px;
+    margin-top: 30px;
     margin-left: 300px;
-    float: left;
+    height: 200px;
+    background-color:black;
+    padding-top: 100px;
 }
-.car2{
-    width: 500px;
-    height: 300px;
-    background-color: green;
-    margin-top: 50px;
+.logo-text2{
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 35px;
+    text-decoration: none;
+    padding-top: 100px;
+}.hlp-btn{
+    background-color:black ;
+    color: white;
+    border: none;
+    outline: none;
+    width: 145px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 0px;
+}
+.hlp-btn:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color:white;
+    border: #d5caca;
+    background-color:  black ;
+    border-bottom: 1px solid white;
+}.footer-mid{
+    width: 70%;
+    height: 470px;
+    background-color: black;
+    margin-left: 225px;
+}
+.tbl{
+    width: 1000px;
+    height: 50px;
+}
+.tbl-hed{
+    font-size: 20px;
+    color: white;
+}
+.tbl-data{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
     margin-left: 80px;
-    float: left;
 }
