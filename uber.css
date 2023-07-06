@@ -170,7 +170,7 @@ body{
 }
 .footer{
     width: 100%;
-    height: 800px;
+    height: 1200px;
     background-color: black;
     float: left;
 }
@@ -562,4 +562,109 @@ body{
     color: white;
     cursor: pointer;
     margin-left: 80px;
+}
+.footer-end{
+    width: 1200px;
+    height: 300px;
+    background-color: black;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.icon-btn{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+}.icon-btn:hover{
+    cursor: pointer;
+    transition: 0.5;
+    background-color:  #F6F6F6 ;
+    color: black;
+}.icon-btn1{
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: black;
+    border: none;
+}.icon-btn1:hover{
+    cursor: pointer;
+    transition: 0.5;
+    background-color:  #F6F6F6 ;
+    color: black;
+}.lang-btn{
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: black;
+    border: none;
+}.lang-btn:hover{
+    cursor: pointer;
+    transition: 0.5;
+    background-color:  #F6F6F6 ;
+    color: black;
+}
+.loc-btn{
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: black;
+    border: none;
+}.loc-btn:hover{
+    cursor: pointer;
+    transition: 0.5;
+    background-color:  #F6F6F6 ;
+    color: black;
+}.playstr-img{
+    width:150px;
+    height: 100px;
+    margin-top: 30px;
+}
+.end-text{
+    color: #F6F6F6;
+    margin-top: 30px;
+}
+.end-text1{
+    color: #F6F6F6;
+    text-decoration: none;
+    margin-left: 50px;
+    cursor: pointer;
+    transform: translateY(-100px);
+}
+.end-text2{
+    color: #F6F6F6;
+    text-decoration: none;
+    margin-left: 30px;
+    cursor: pointer;
+    transform: translateY(-100px);
+}
+.end-text3{
+    color: #F6F6F6;
+    text-decoration: none;
+    margin-left: 30px;
+    cursor: pointer;
+    transform: translateY(-100px);
+}
+.end-div1{
+    width: 400px;
+    height: 70px;
+    background-color: black;
+    float: left;
+}.end-div2{
+    width: 400px;
+    height: 35px;
+    margin-left: 400px;
+    background-color: black;
+    float: left;
+    padding-top: 30px;
 }
